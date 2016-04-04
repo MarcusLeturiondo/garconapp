@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>GarçonApp</name>
+
+    <description>
+        Menu do restaurante.
+    </description>
+
+    <author href="https://build.phonegap.com" email="mv.leturiondo@gmail.com">
+        Marcus Leturiondo
+    </author>
+    <icon src="imagens/icon.png" />
+    <gap:splash src="imagens/splash.png" />
+
+    <preferences name="orientation" value="portrait" />
+    <preferences name="fullscreen" value="true" />
+    <preferences name="permissions" value="none" />
+    <gap:platform name="android" />
+
+</widget>
